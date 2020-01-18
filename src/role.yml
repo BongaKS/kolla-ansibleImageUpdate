@@ -1,0 +1,4 @@
+roleId: 46686187-abe9-0764-322f-06fe6875e3d4
+secretId: fd83963b-7f8d-1999-a662-10aacee639bf
+vaultUrl : 'https://vault.devops.sahl.cloud:8200/v1/auth/approle/login'
+secretUrl : 'https://vault.devops.sahl.cloud:8200/v1/secret/dtr'
