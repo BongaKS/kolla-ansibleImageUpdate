@@ -1,0 +1,29 @@
+{
+  "name": "openstack-images-updater",
+  "version": "0.0.0",
+  "description": "Openstack Image Updater for Kolla Images",
+  "author": {
+    "name": "Bonga Dlamini",
+    "email": "bongad@sahomeloans.com"
+  },
+  "files": [
+    "src"
+  ],
+  "main": "src/app.js",
+  "scripts": {
+    "docker-build": "./node_modules/.bin/gulp docker:build",
+    "docker-ci": "./node_modules/.bin/gulp docker:ci",
+    "test-standard": "NODE_ENV=test ./node_modules/.bin/semistandard src/**/*.js | ./node_modules/.bin/snazzy",
+    "test-coverage": "NODE_ENV=test ./node_modules/.bin/gulp test-coverage",
+    "test-api": "NODE_ENV=test-docker ./node_modules/.bin/gulp test-api"
+  },
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-buildscripts": "^2.1.4",
+    "semistandard": "^12.0.1",
+    "snazzy": "^7.0.0"
+  }
+}
