@@ -1,5 +1,5 @@
 # kolla-ansible Image Updater
-node js app that updates kolla ansible docker images
+node js app that updates kolla ansible docker images with the ones in your local DTR
 
 # Kolla Ansible
 
